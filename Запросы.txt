@@ -1,0 +1,25 @@
+GET /web-2/index.php HTTP/1.0
+Host: u47633.kubsu-dev.ru
+
+GET /web-2/index.php HTTP/1.1
+Host: u47633.kubsu-dev.ru
+
+HEAD /web-2/file.tar.gz HTTP/1.0
+Host: u47633.kubsu-dev.ru
+
+HEAD /web-2/image.png HTTP/1.0
+Host: u47633.kubsu-dev.ru
+
+POST /web-2/index.php HTTP/1.0
+Host: u47633.kubsu-dev.ru
+Content-Type: text/plain
+Content-Length: 12
+
+comment=hi
+
+HEAD /web-2/file.tar.gz HTTP/1.0
+Host: u47633.kubsu-dev.ru
+Range: bytes=0-99
+
+HEAD /web-2/index.php HTTP/1.1
+Host: u47633.kubsu-dev.ru
